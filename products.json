@@ -3,7 +3,7 @@
     "id": 1,
     "name": "超級毒藥",
     "size": "2~3",
-    "category": "脂鯉-燈魚",
+    "category": "燈魚",
     "source": "人工",
     "unit": "隻",
     "tiers": [
@@ -30,7 +30,7 @@
     "id": 2,
     "name": "金錢豹吸鰍",
     "size": "4~5",
-    "category": "鰍類-平鰭鰍",
+    "category": "鰍類",
     "source": "野生",
     "unit": "隻",
     "tiers": [
@@ -57,7 +57,7 @@
     "id": 3,
     "name": "越南小華爬岩鰍",
     "size": "5~6",
-    "category": "鰍類-平鰭鰍",
+    "category": "鰍類",
     "source": "野生",
     "unit": "隻",
     "tiers": [
@@ -84,7 +84,7 @@
     "id": 4,
     "name": "迷鬥子",
     "size": "2~2.5",
-    "category": "迷鰓魚-麗麗",
+    "category": "麗麗",
     "source": "野生",
     "unit": "隻",
     "tiers": [
@@ -106,7 +106,7 @@
     "id": 5,
     "name": "桂花吻蝦虎",
     "size": "4",
-    "category": "蝦虎/塘鱧-吻蝦虎",
+    "category": "蝦虎/塘鱧",
     "source": "野生",
     "unit": "隻",
     "tiers": [
@@ -133,7 +133,7 @@
     "id": 6,
     "name": "斷線吻蝦虎",
     "size": "3~4",
-    "category": "蝦虎/塘鱧-吻蝦虎",
+    "category": "蝦虎/塘鱧",
     "source": "野生",
     "unit": "隻",
     "tiers": [
@@ -160,7 +160,7 @@
     "id": 7,
     "name": "雲南血喉吻蝦虎－公",
     "size": "4~5",
-    "category": "蝦虎/塘鱧-吻蝦虎",
+    "category": "蝦虎/塘鱧",
     "source": "野生",
     "unit": "隻",
     "tiers": [
@@ -187,7 +187,7 @@
     "id": 8,
     "name": "成都吻蝦虎",
     "size": "7",
-    "category": "蝦虎/塘鱧-吻蝦虎",
+    "category": "蝦虎/塘鱧",
     "source": "野生",
     "unit": "隻",
     "tiers": [
@@ -214,7 +214,7 @@
     "id": 9,
     "name": "越南龍吻蝦虎",
     "size": "4",
-    "category": "蝦虎/塘鱧-吻蝦虎",
+    "category": "蝦虎/塘鱧",
     "source": "野生",
     "unit": "隻",
     "tiers": [
@@ -241,7 +241,7 @@
     "id": 10,
     "name": "高帆雀斑吻蝦虎",
     "size": "4",
-    "category": "蝦虎/塘鱧-吻蝦虎",
+    "category": "蝦虎/塘鱧",
     "source": "野生",
     "unit": "隻",
     "tiers": [

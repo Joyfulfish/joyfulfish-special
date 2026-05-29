@@ -184,25 +184,6 @@
     "unit": "隻"
   },
   {
-    "name": "迷鬥子",
-    "size": "2~2.5",
-    "category": "麗麗",
-    "source": "野生",
-    "tiers": [
-      {
-        "moq": 1,
-        "cost": 700.0,
-        "price": 1230
-      },
-      {
-        "moq": 3,
-        "cost": 550.0,
-        "price": 970
-      }
-    ],
-    "unit": "隻"
-  },
-  {
     "name": "桂花吻蝦虎",
     "size": "4",
     "category": "蝦虎/塘鱧",

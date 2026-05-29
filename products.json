@@ -1,0 +1,537 @@
+[
+  {
+    "id": 1,
+    "name": "超級毒藥",
+    "size": "2~3",
+    "category": "脂鯉-燈魚",
+    "source": "人工",
+    "unit": "隻",
+    "tiers": [
+      {
+        "moq": 1,
+        "cost": 240.0,
+        "price": 420
+      },
+      {
+        "moq": 20,
+        "cost": 200.0,
+        "price": 350
+      },
+      {
+        "moq": 30,
+        "cost": 180.0,
+        "price": 320
+      }
+    ],
+    "image": "images/超級毒藥.jpg",
+    "inStock": true
+  },
+  {
+    "id": 2,
+    "name": "金錢豹吸鰍",
+    "size": "4~5",
+    "category": "鰍類-平鰭鰍",
+    "source": "野生",
+    "unit": "隻",
+    "tiers": [
+      {
+        "moq": 1,
+        "cost": 240.0,
+        "price": 420
+      },
+      {
+        "moq": 3,
+        "cost": 200.0,
+        "price": 350
+      },
+      {
+        "moq": 5,
+        "cost": 180.0,
+        "price": 320
+      }
+    ],
+    "image": "images/金錢豹吸鰍.jpg",
+    "inStock": true
+  },
+  {
+    "id": 3,
+    "name": "越南小華爬岩鰍",
+    "size": "5~6",
+    "category": "鰍類-平鰭鰍",
+    "source": "野生",
+    "unit": "隻",
+    "tiers": [
+      {
+        "moq": 1,
+        "cost": 240.0,
+        "price": 420
+      },
+      {
+        "moq": 5,
+        "cost": 200.0,
+        "price": 350
+      },
+      {
+        "moq": 7,
+        "cost": 180.0,
+        "price": 320
+      }
+    ],
+    "image": "images/越南小華爬岩鰍.jpg",
+    "inStock": true
+  },
+  {
+    "id": 4,
+    "name": "迷鬥子",
+    "size": "2~2.5",
+    "category": "迷鰓魚-麗麗",
+    "source": "野生",
+    "unit": "隻",
+    "tiers": [
+      {
+        "moq": 1,
+        "cost": 700.0,
+        "price": 1230
+      },
+      {
+        "moq": 3,
+        "cost": 550.0,
+        "price": 970
+      }
+    ],
+    "image": "images/迷鬥子.jpg",
+    "inStock": true
+  },
+  {
+    "id": 5,
+    "name": "桂花吻蝦虎",
+    "size": "4",
+    "category": "蝦虎/塘鱧-吻蝦虎",
+    "source": "野生",
+    "unit": "隻",
+    "tiers": [
+      {
+        "moq": 1,
+        "cost": 240.0,
+        "price": 420
+      },
+      {
+        "moq": 5,
+        "cost": 200.0,
+        "price": 350
+      },
+      {
+        "moq": 7,
+        "cost": 180.0,
+        "price": 320
+      }
+    ],
+    "image": "images/桂花吻蝦虎.jpg",
+    "inStock": true
+  },
+  {
+    "id": 6,
+    "name": "斷線吻蝦虎",
+    "size": "3~4",
+    "category": "蝦虎/塘鱧-吻蝦虎",
+    "source": "野生",
+    "unit": "隻",
+    "tiers": [
+      {
+        "moq": 1,
+        "cost": 240.0,
+        "price": 420
+      },
+      {
+        "moq": 5,
+        "cost": 200.0,
+        "price": 350
+      },
+      {
+        "moq": 7,
+        "cost": 180.0,
+        "price": 320
+      }
+    ],
+    "image": "images/斷線吻蝦虎.jpg",
+    "inStock": true
+  },
+  {
+    "id": 7,
+    "name": "雲南血喉吻蝦虎－公",
+    "size": "4~5",
+    "category": "蝦虎/塘鱧-吻蝦虎",
+    "source": "野生",
+    "unit": "隻",
+    "tiers": [
+      {
+        "moq": 1,
+        "cost": 360.0,
+        "price": 630
+      },
+      {
+        "moq": 5,
+        "cost": 300.0,
+        "price": 530
+      },
+      {
+        "moq": 7,
+        "cost": 250.0,
+        "price": 440
+      }
+    ],
+    "image": "images/雲南血喉吻蝦虎－公.jpg",
+    "inStock": true
+  },
+  {
+    "id": 8,
+    "name": "成都吻蝦虎",
+    "size": "7",
+    "category": "蝦虎/塘鱧-吻蝦虎",
+    "source": "野生",
+    "unit": "隻",
+    "tiers": [
+      {
+        "moq": 1,
+        "cost": 300.0,
+        "price": 530
+      },
+      {
+        "moq": 3,
+        "cost": 250.0,
+        "price": 440
+      },
+      {
+        "moq": 5,
+        "cost": 200.0,
+        "price": 350
+      }
+    ],
+    "image": "images/成都吻蝦虎.jpg",
+    "inStock": true
+  },
+  {
+    "id": 9,
+    "name": "越南龍吻蝦虎",
+    "size": "4",
+    "category": "蝦虎/塘鱧-吻蝦虎",
+    "source": "野生",
+    "unit": "隻",
+    "tiers": [
+      {
+        "moq": 1,
+        "cost": 700.0,
+        "price": 1230
+      },
+      {
+        "moq": 3,
+        "cost": 550.0,
+        "price": 970
+      },
+      {
+        "moq": 5,
+        "cost": 500.0,
+        "price": 880
+      }
+    ],
+    "image": "images/越南龍吻蝦虎.jpg",
+    "inStock": true
+  },
+  {
+    "id": 10,
+    "name": "高帆雀斑吻蝦虎",
+    "size": "4",
+    "category": "蝦虎/塘鱧-吻蝦虎",
+    "source": "野生",
+    "unit": "隻",
+    "tiers": [
+      {
+        "moq": 1,
+        "cost": 240.0,
+        "price": 420
+      },
+      {
+        "moq": 5,
+        "cost": 200.0,
+        "price": 350
+      },
+      {
+        "moq": 7,
+        "cost": 180.0,
+        "price": 320
+      }
+    ],
+    "image": "images/高帆雀斑吻蝦虎.jpg",
+    "inStock": true
+  },
+  {
+    "id": 11,
+    "name": "黃果樹爬岩鰍",
+    "size": "4~5",
+    "category": "鰍類",
+    "source": "野生",
+    "unit": "隻",
+    "tiers": [
+      {
+        "moq": 1,
+        "cost": 550.0,
+        "price": 970
+      },
+      {
+        "moq": 3,
+        "cost": 500.0,
+        "price": 880
+      },
+      {
+        "moq": 5,
+        "cost": 450.0,
+        "price": 790
+      }
+    ],
+    "image": "images/黃果樹爬岩鰍.jpg",
+    "inStock": true
+  },
+  {
+    "id": 12,
+    "name": "菲律賓藍天使",
+    "size": "5",
+    "category": "蝦虎/塘鱧",
+    "source": "野生",
+    "unit": "隻",
+    "tiers": [
+      {
+        "moq": 1,
+        "cost": 1500.0,
+        "price": 2630
+      },
+      {
+        "moq": 3,
+        "cost": 1350.0,
+        "price": 2370
+      },
+      {
+        "moq": 5,
+        "cost": 1200.0,
+        "price": 2100
+      }
+    ],
+    "image": "images/菲律賓藍天使.jpg",
+    "inStock": true
+  },
+  {
+    "id": 13,
+    "name": "豹紋雲南鰍（豹紋泳鰍）",
+    "size": "4",
+    "category": "鰍類",
+    "source": "野生",
+    "unit": "隻",
+    "tiers": [
+      {
+        "moq": 1,
+        "cost": 180.0,
+        "price": 320
+      },
+      {
+        "moq": 3,
+        "cost": 160.0,
+        "price": 280
+      },
+      {
+        "moq": 5,
+        "cost": 145.0,
+        "price": 260
+      }
+    ],
+    "image": "images/豹紋雲南鰍（豹紋泳鰍）.jpg",
+    "inStock": true
+  },
+  {
+    "id": 14,
+    "name": "疣背小條鰍（翠綠紅尾鰍）",
+    "size": "5~7",
+    "category": "鰍類",
+    "source": "野生",
+    "unit": "隻",
+    "tiers": [
+      {
+        "moq": 1,
+        "cost": 380.0,
+        "price": 670
+      },
+      {
+        "moq": 3,
+        "cost": 340.0,
+        "price": 600
+      },
+      {
+        "moq": 5,
+        "cost": 300.0,
+        "price": 530
+      }
+    ],
+    "image": "images/疣背小條鰍（翠綠紅尾鰍）.jpg",
+    "inStock": true
+  },
+  {
+    "id": 15,
+    "name": "越南華吸鰍",
+    "size": "4~5",
+    "category": "鰍類",
+    "source": "野生",
+    "unit": "隻",
+    "tiers": [
+      {
+        "moq": 1,
+        "cost": 350.0,
+        "price": 620
+      },
+      {
+        "moq": 3,
+        "cost": 320.0,
+        "price": 560
+      },
+      {
+        "moq": 5,
+        "cost": 280.0,
+        "price": 490
+      }
+    ],
+    "image": "images/越南華吸鰍.jpg",
+    "inStock": true
+  },
+  {
+    "id": 16,
+    "name": "龜紋鯔蝦虎",
+    "size": "3~4",
+    "category": "蝦虎/塘鱧",
+    "source": "野生",
+    "unit": "隻",
+    "tiers": [
+      {
+        "moq": 1,
+        "cost": 250.0,
+        "price": 440
+      },
+      {
+        "moq": 3,
+        "cost": 220.0,
+        "price": 390
+      },
+      {
+        "moq": 5,
+        "cost": 200.0,
+        "price": 350
+      }
+    ],
+    "image": "images/龜紋鯔蝦虎.jpg",
+    "inStock": true
+  },
+  {
+    "id": 17,
+    "name": "越南鱊",
+    "size": "6~7",
+    "category": "鯉科魚",
+    "source": "野生",
+    "unit": "隻",
+    "tiers": [
+      {
+        "moq": 1,
+        "cost": 350.0,
+        "price": 620
+      },
+      {
+        "moq": 3,
+        "cost": 300.0,
+        "price": 530
+      },
+      {
+        "moq": 5,
+        "cost": 265.0,
+        "price": 470
+      }
+    ],
+    "image": "images/越南鱊.jpg",
+    "inStock": true
+  },
+  {
+    "id": 18,
+    "name": "平舟原纓口鰍",
+    "size": "7~9",
+    "category": "鰍類",
+    "source": "野生",
+    "unit": "隻",
+    "tiers": [
+      {
+        "moq": 1,
+        "cost": 300.0,
+        "price": 530
+      },
+      {
+        "moq": 3,
+        "cost": 270.0,
+        "price": 480
+      },
+      {
+        "moq": 5,
+        "cost": 240.0,
+        "price": 420
+      }
+    ],
+    "image": "images/平舟原纓口鰍.jpg",
+    "inStock": true
+  },
+  {
+    "id": 19,
+    "name": "電波蛇魚",
+    "size": "4~5",
+    "category": "鰍類",
+    "source": "野生",
+    "unit": "隻",
+    "tiers": [
+      {
+        "moq": 1,
+        "cost": 180.0,
+        "price": 320
+      },
+      {
+        "moq": 5,
+        "cost": 130.0,
+        "price": 230
+      },
+      {
+        "moq": 10,
+        "cost": 90.0,
+        "price": 160
+      }
+    ],
+    "image": "images/電波蛇魚.jpg",
+    "inStock": true
+  },
+  {
+    "id": 20,
+    "name": "麗紋細鯽",
+    "size": "2",
+    "category": "鯉科魚",
+    "source": "野生",
+    "unit": "隻",
+    "tiers": [
+      {
+        "moq": 1,
+        "cost": 60.0,
+        "price": 110
+      },
+      {
+        "moq": 10,
+        "cost": 45.0,
+        "price": 80
+      },
+      {
+        "moq": 20,
+        "cost": 35.0,
+        "price": 70
+      }
+    ],
+    "image": "images/麗紋細鯽.jpg",
+    "inStock": true
+  }
+]

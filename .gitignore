@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# 舊版檔案
+index_old.html
+
+# 編輯器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

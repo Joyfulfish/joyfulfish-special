@@ -1030,23 +1030,43 @@ ${items.map(item =>
                 <div class="order-summary">
                     <h3>📋 訂單明細</h3>
                     <pre>${orderText}</pre>
-                    <button class="copy-btn" onclick="copyOrder(\`${orderText}\`)">📋 複製訂單</button>
-                    <button class="checkout-btn" onclick="sendToLine(\`${orderText}\`)">💬 傳送到 LINE</button>
+                    <button class="checkout-btn" onclick="sendToLineOA()">💬 送出至 LINE 官方帳號</button>
+                    <p style="margin-top: 1rem; font-size: 0.9rem; color: #666; text-align: center;">
+                        點擊後會開啟 LINE 並自動帶入訂單內容
+                    </p>
                 </div>
             `;
+
+            // 儲存訂單文字
+            window.currentOrder = orderText;
         }
 
-        // 複製訂單
-        function copyOrder(text) {
-            navigator.clipboard.writeText(text).then(() => {
-                alert('✅ 訂單已複製！\n請貼到 LINE 傳給我們');
-            });
-        }
+        // 送出至 LINE 官方帳號
+        async function sendToLineOA() {
+            if (!window.currentOrder) return;
 
-        // 傳送到 LINE
-        function sendToLine(text) {
-            const lineUrl = `https://line.me/R/msg/text/?${encodeURIComponent(text)}`;
-            window.open(lineUrl, '_blank');
+            const msg = window.currentOrder;
+            const LINE_OA_ID = '@joyfulfish';  // 魚樂匯 LINE 官方帳號 ID
+
+            // 先嘗試複製到剪貼簿（備用方案）
+            let copied = false;
+            try {
+                await navigator.clipboard.writeText(msg);
+                copied = true;
+            } catch (err) {
+                console.log('複製到剪貼簿失敗，但不影響 LINE 開啟');
+            }
+
+            // 使用 LINE OA Message 格式，直接跳轉到官方帳號並預填訊息
+            const url = `https://line.me/R/oaMessage/${encodeURIComponent(LINE_OA_ID)}/?${encodeURIComponent(msg)}`;
+            window.open(url, '_blank');
+
+            // 提示客人
+            setTimeout(() => {
+                alert(copied
+                    ? '✅ 已開啟 LINE 官方帳號\n\n訂單已自動帶入或已複製到剪貼簿\n請按送出鍵傳送訂單'
+                    : '✅ 已開啟 LINE 官方帳號\n\n請在對話框中貼上訂單並送出');
+            }, 500);
         }
 
         // 初始化

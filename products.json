@@ -2,7 +2,7 @@
   {
     "name": "火眼金背惡魔蟹",
     "size": "M",
-    "category": "惡魔蟹",
+    "category": "蟹",
     "source": "野生",
     "tiers": [
       {
@@ -25,7 +25,7 @@
   {
     "name": "火焰惡魔蟹",
     "size": "M",
-    "category": "惡魔蟹",
+    "category": "蟹",
     "source": "野生",
     "tiers": [
       {
@@ -48,7 +48,7 @@
   {
     "name": "迪斯可惡魔蟹",
     "size": "M",
-    "category": "惡魔蟹",
+    "category": "蟹",
     "source": "野生",
     "tiers": [
       {
@@ -71,7 +71,7 @@
   {
     "name": "香蕉惡魔蟹",
     "size": "M",
-    "category": "惡魔蟹",
+    "category": "蟹",
     "source": "野生",
     "tiers": [
       {
@@ -94,7 +94,7 @@
   {
     "name": "萬聖節惡魔蟹",
     "size": "M",
-    "category": "惡魔蟹",
+    "category": "蟹",
     "source": "野生",
     "tiers": [
       {
@@ -117,7 +117,7 @@
   {
     "name": "金眼彩紅惡魔蟹",
     "size": "M",
-    "category": "惡魔蟹",
+    "category": "蟹",
     "source": "野生",
     "tiers": [
       {
@@ -140,7 +140,7 @@
   {
     "name": "糖果惡魔蟹",
     "size": "M",
-    "category": "惡魔蟹",
+    "category": "蟹",
     "source": "野生",
     "tiers": [
       {
@@ -163,7 +163,7 @@
   {
     "name": "金睛玉面惡魔蟹",
     "size": "M",
-    "category": "惡魔蟹",
+    "category": "蟹",
     "source": "野生",
     "tiers": [
       {
@@ -186,7 +186,7 @@
   {
     "name": "金眼黃背惡魔蟹",
     "size": "M",
-    "category": "惡魔蟹",
+    "category": "蟹",
     "source": "野生",
     "tiers": [
       {
@@ -209,7 +209,7 @@
   {
     "name": "白臂糖果惡魔蟹",
     "size": "M",
-    "category": "惡魔蟹",
+    "category": "蟹",
     "source": "野生",
     "tiers": [
       {
@@ -232,7 +232,7 @@
   {
     "name": "小熊維尼蟹",
     "size": "M",
-    "category": "麗泉蟹",
+    "category": "蟹",
     "source": "野生",
     "tiers": [
       {
@@ -261,7 +261,7 @@
       {
         "moq": 1,
         "cost": 240.0,
-        "price": 420
+        "price": 400
       },
       {
         "moq": 20,
@@ -271,7 +271,7 @@
       {
         "moq": 30,
         "cost": 180.0,
-        "price": 320
+        "price": 300
       }
     ],
     "unit": "隻"
@@ -285,7 +285,7 @@
       {
         "moq": 1,
         "cost": 240.0,
-        "price": 420
+        "price": 400
       },
       {
         "moq": 3,
@@ -295,7 +295,7 @@
       {
         "moq": 5,
         "cost": 180.0,
-        "price": 320
+        "price": 300
       }
     ],
     "unit": "隻"
@@ -309,7 +309,7 @@
       {
         "moq": 1,
         "cost": 240.0,
-        "price": 420
+        "price": 400
       },
       {
         "moq": 5,
@@ -319,7 +319,7 @@
       {
         "moq": 7,
         "cost": 180.0,
-        "price": 320
+        "price": 300
       }
     ],
     "unit": "隻"
@@ -333,7 +333,7 @@
       {
         "moq": 1,
         "cost": 240.0,
-        "price": 420
+        "price": 400
       },
       {
         "moq": 5,
@@ -343,7 +343,7 @@
       {
         "moq": 7,
         "cost": 180.0,
-        "price": 320
+        "price": 300
       }
     ],
     "unit": "隻"
@@ -357,7 +357,7 @@
       {
         "moq": 1,
         "cost": 240.0,
-        "price": 420
+        "price": 400
       },
       {
         "moq": 5,
@@ -367,7 +367,7 @@
       {
         "moq": 7,
         "cost": 180.0,
-        "price": 320
+        "price": 300
       }
     ],
     "unit": "隻"
@@ -381,17 +381,17 @@
       {
         "moq": 1,
         "cost": 360.0,
-        "price": 630
+        "price": 600
       },
       {
         "moq": 5,
         "cost": 300.0,
-        "price": 530
+        "price": 500
       },
       {
         "moq": 7,
         "cost": 250.0,
-        "price": 440
+        "price": 400
       }
     ],
     "unit": "隻"
@@ -405,12 +405,12 @@
       {
         "moq": 1,
         "cost": 300.0,
-        "price": 530
+        "price": 500
       },
       {
         "moq": 3,
         "cost": 250.0,
-        "price": 440
+        "price": 400
       },
       {
         "moq": 5,
@@ -429,17 +429,17 @@
       {
         "moq": 1,
         "cost": 700.0,
-        "price": 1230
+        "price": 1200
       },
       {
         "moq": 3,
         "cost": 550.0,
-        "price": 970
+        "price": 950
       },
       {
         "moq": 5,
         "cost": 500.0,
-        "price": 880
+        "price": 850
       }
     ],
     "unit": "隻"
@@ -453,7 +453,7 @@
       {
         "moq": 1,
         "cost": 240.0,
-        "price": 420
+        "price": 400
       },
       {
         "moq": 5,
@@ -463,7 +463,7 @@
       {
         "moq": 7,
         "cost": 180.0,
-        "price": 320
+        "price": 300
       }
     ],
     "unit": "隻"
@@ -477,17 +477,17 @@
       {
         "moq": 1,
         "cost": 550.0,
-        "price": 970
+        "price": 950
       },
       {
         "moq": 3,
         "cost": 500.0,
-        "price": 880
+        "price": 850
       },
       {
         "moq": 5,
         "cost": 450.0,
-        "price": 790
+        "price": 750
       }
     ],
     "unit": "隻"
@@ -501,17 +501,17 @@
       {
         "moq": 1,
         "cost": 1500.0,
-        "price": 2630
+        "price": 2550
       },
       {
         "moq": 3,
         "cost": 1350.0,
-        "price": 2370
+        "price": 2300
       },
       {
         "moq": 5,
         "cost": 1200.0,
-        "price": 2100
+        "price": 2050
       }
     ],
     "unit": "隻"
@@ -525,17 +525,17 @@
       {
         "moq": 1,
         "cost": 180.0,
-        "price": 320
+        "price": 300
       },
       {
         "moq": 3,
         "cost": 160.0,
-        "price": 280
+        "price": 250
       },
       {
         "moq": 5,
         "cost": 145.0,
-        "price": 260
+        "price": 250
       }
     ],
     "unit": "隻"
@@ -549,7 +549,7 @@
       {
         "moq": 1,
         "cost": 380.0,
-        "price": 670
+        "price": 650
       },
       {
         "moq": 3,
@@ -559,7 +559,7 @@
       {
         "moq": 5,
         "cost": 300.0,
-        "price": 530
+        "price": 500
       }
     ],
     "unit": "隻"
@@ -573,17 +573,17 @@
       {
         "moq": 1,
         "cost": 350.0,
-        "price": 620
+        "price": 600
       },
       {
         "moq": 3,
         "cost": 320.0,
-        "price": 560
+        "price": 550
       },
       {
         "moq": 5,
         "cost": 280.0,
-        "price": 490
+        "price": 500
       }
     ],
     "unit": "隻"
@@ -597,12 +597,12 @@
       {
         "moq": 1,
         "cost": 250.0,
-        "price": 440
+        "price": 400
       },
       {
         "moq": 3,
         "cost": 220.0,
-        "price": 390
+        "price": 350
       },
       {
         "moq": 5,
@@ -621,17 +621,17 @@
       {
         "moq": 1,
         "cost": 350.0,
-        "price": 620
+        "price": 600
       },
       {
         "moq": 3,
         "cost": 300.0,
-        "price": 530
+        "price": 500
       },
       {
         "moq": 5,
         "cost": 265.0,
-        "price": 470
+        "price": 450
       }
     ],
     "unit": "隻"
@@ -645,17 +645,17 @@
       {
         "moq": 1,
         "cost": 300.0,
-        "price": 530
+        "price": 500
       },
       {
         "moq": 3,
         "cost": 270.0,
-        "price": 480
+        "price": 450
       },
       {
         "moq": 5,
         "cost": 240.0,
-        "price": 420
+        "price": 400
       }
     ],
     "unit": "隻"
@@ -669,17 +669,17 @@
       {
         "moq": 1,
         "cost": 180.0,
-        "price": 320
+        "price": 300
       },
       {
         "moq": 5,
         "cost": 130.0,
-        "price": 230
+        "price": 200
       },
       {
         "moq": 10,
         "cost": 90.0,
-        "price": 160
+        "price": 150
       }
     ],
     "unit": "隻"
@@ -693,17 +693,17 @@
       {
         "moq": 1,
         "cost": 60.0,
-        "price": 110
+        "price": 100
       },
       {
         "moq": 10,
         "cost": 45.0,
-        "price": 80
+        "price": 100
       },
       {
         "moq": 20,
         "cost": 35.0,
-        "price": 70
+        "price": 50
       }
     ],
     "unit": "隻"
@@ -717,17 +717,17 @@
       {
         "moq": 5,
         "cost": 180.0,
-        "price": 320
+        "price": 300
       },
       {
         "moq": 15,
         "cost": 150.0,
-        "price": 270
+        "price": 250
       },
       {
         "moq": 25,
         "cost": 120.0,
-        "price": 210
+        "price": 200
       }
     ],
     "unit": "隻"
@@ -741,17 +741,17 @@
       {
         "moq": 5,
         "cost": 90.0,
-        "price": 160
+        "price": 150
       },
       {
         "moq": 40,
         "cost": 70.0,
-        "price": 130
+        "price": 100
       },
       {
         "moq": 50,
         "cost": 65.0,
-        "price": 120
+        "price": 100
       }
     ],
     "unit": "隻"
@@ -765,17 +765,17 @@
       {
         "moq": 1,
         "cost": 1200.0,
-        "price": 2100
+        "price": 2050
       },
       {
         "moq": 3,
         "cost": 700.0,
-        "price": 1230
+        "price": 1200
       },
       {
         "moq": 5,
         "cost": 650.0,
-        "price": 1140
+        "price": 1100
       }
     ],
     "unit": "隻"
@@ -789,12 +789,12 @@
       {
         "moq": 3,
         "cost": 280.0,
-        "price": 490
+        "price": 500
       },
       {
         "moq": 5,
         "cost": 220.0,
-        "price": 390
+        "price": 350
       },
       {
         "moq": 7,
@@ -813,12 +813,12 @@
       {
         "moq": 1,
         "cost": 540.0,
-        "price": 950
+        "price": 900
       },
       {
         "moq": 3,
         "cost": 450.0,
-        "price": 790
+        "price": 750
       },
       {
         "moq": 5,
@@ -837,17 +837,17 @@
       {
         "moq": 1,
         "cost": 600.0,
-        "price": 1050
+        "price": 1000
       },
       {
         "moq": 3,
         "cost": 500.0,
-        "price": 880
+        "price": 850
       },
       {
         "moq": 5,
         "cost": 450.0,
-        "price": 790
+        "price": 750
       }
     ],
     "unit": "隻"
@@ -861,7 +861,7 @@
       {
         "moq": 3,
         "cost": 240.0,
-        "price": 420
+        "price": 400
       },
       {
         "moq": 5,
@@ -871,7 +871,7 @@
       {
         "moq": 7,
         "cost": 180.0,
-        "price": 320
+        "price": 300
       }
     ],
     "unit": "隻"
@@ -885,17 +885,17 @@
       {
         "moq": 1,
         "cost": 380.0,
-        "price": 670
+        "price": 650
       },
       {
         "moq": 3,
         "cost": 300.0,
-        "price": 530
+        "price": 500
       },
       {
         "moq": 5,
         "cost": 250.0,
-        "price": 440
+        "price": 400
       }
     ],
     "unit": "隻"
@@ -909,17 +909,17 @@
       {
         "moq": 1,
         "cost": 2400.0,
-        "price": 4200
+        "price": 4100
       },
       {
         "moq": 3,
         "cost": 1800.0,
-        "price": 3150
+        "price": 3050
       },
       {
         "moq": 5,
         "cost": 1500.0,
-        "price": 2630
+        "price": 2550
       }
     ],
     "unit": "隻"
@@ -933,12 +933,12 @@
       {
         "moq": 20,
         "cost": 36.0,
-        "price": 70
+        "price": 50
       },
       {
         "moq": 30,
         "cost": 30.0,
-        "price": 60
+        "price": 50
       },
       {
         "moq": 40,
@@ -957,17 +957,17 @@
       {
         "moq": 1,
         "cost": 250.0,
-        "price": 440
+        "price": 400
       },
       {
         "moq": 3,
         "cost": 220.0,
-        "price": 390
+        "price": 350
       },
       {
         "moq": 5,
         "cost": 190.0,
-        "price": 340
+        "price": 300
       }
     ],
     "unit": "隻"
@@ -981,17 +981,17 @@
       {
         "moq": 1,
         "cost": 120.0,
-        "price": 210
+        "price": 200
       },
       {
         "moq": 3,
         "cost": 100.0,
-        "price": 180
+        "price": 150
       },
       {
         "moq": 5,
         "cost": 80.0,
-        "price": 140
+        "price": 150
       }
     ],
     "unit": "隻"
@@ -1005,17 +1005,17 @@
       {
         "moq": 1,
         "cost": 350.0,
-        "price": 620
+        "price": 600
       },
       {
         "moq": 3,
         "cost": 300.0,
-        "price": 530
+        "price": 500
       },
       {
         "moq": 5,
         "cost": 260.0,
-        "price": 460
+        "price": 450
       }
     ],
     "unit": "隻"
@@ -1029,17 +1029,17 @@
       {
         "moq": 1,
         "cost": 350.0,
-        "price": 620
+        "price": 600
       },
       {
         "moq": 3,
         "cost": 300.0,
-        "price": 530
+        "price": 500
       },
       {
         "moq": 5,
         "cost": 250.0,
-        "price": 440
+        "price": 400
       }
     ],
     "unit": "隻"
@@ -1053,17 +1053,17 @@
       {
         "moq": 1,
         "cost": 350.0,
-        "price": 620
+        "price": 600
       },
       {
         "moq": 3,
         "cost": 300.0,
-        "price": 530
+        "price": 500
       },
       {
         "moq": 5,
         "cost": 260.0,
-        "price": 460
+        "price": 450
       }
     ],
     "unit": "隻"
@@ -1077,12 +1077,12 @@
       {
         "moq": 1,
         "cost": 1000.0,
-        "price": 1750
+        "price": 1700
       },
       {
         "moq": 3,
         "cost": 750.0,
-        "price": 1320
+        "price": 1300
       }
     ],
     "unit": "隻"
@@ -1096,12 +1096,12 @@
       {
         "moq": 1,
         "cost": 180.0,
-        "price": 320
+        "price": 300
       },
       {
         "moq": 3,
         "cost": 160.0,
-        "price": 280
+        "price": 250
       },
       {
         "moq": 5,
@@ -1120,12 +1120,12 @@
       {
         "moq": 1,
         "cost": 130.0,
-        "price": 230
+        "price": 200
       },
       {
         "moq": 3,
         "cost": 100.0,
-        "price": 180
+        "price": 150
       },
       {
         "moq": 5,
@@ -1144,7 +1144,7 @@
       {
         "moq": 3,
         "cost": 60.0,
-        "price": 110
+        "price": 100
       },
       {
         "moq": 5,
@@ -1154,7 +1154,7 @@
       {
         "moq": 8,
         "cost": 45.0,
-        "price": 80
+        "price": 100
       }
     ],
     "unit": "隻"

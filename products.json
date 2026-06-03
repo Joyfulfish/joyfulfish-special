@@ -6,9 +6,18 @@
     "source": "野生",
     "tiers": [
       {
-        "moq": 1,
-        "cost": 200.0,
-        "price": 320
+        "moq": 3,
+        "cost": 0,
+        "price": 666.67,
+        "total_price": 2000,
+        "note": "一公兩母"
+      },
+      {
+        "moq": 5,
+        "cost": 0,
+        "price": 600.0,
+        "total_price": 3000,
+        "note": "兩公三母"
       }
     ],
     "unit": "隻"
@@ -20,9 +29,18 @@
     "source": "野生",
     "tiers": [
       {
-        "moq": 1,
-        "cost": 200.0,
-        "price": 320
+        "moq": 3,
+        "cost": 0,
+        "price": 666.67,
+        "total_price": 2000,
+        "note": "一公兩母"
+      },
+      {
+        "moq": 5,
+        "cost": 0,
+        "price": 600.0,
+        "total_price": 3000,
+        "note": "兩公三母"
       }
     ],
     "unit": "隻"
@@ -34,9 +52,18 @@
     "source": "野生",
     "tiers": [
       {
-        "moq": 1,
-        "cost": 200.0,
-        "price": 320
+        "moq": 3,
+        "cost": 0,
+        "price": 666.67,
+        "total_price": 2000,
+        "note": "一公兩母"
+      },
+      {
+        "moq": 5,
+        "cost": 0,
+        "price": 600.0,
+        "total_price": 3000,
+        "note": "兩公三母"
       }
     ],
     "unit": "隻"
@@ -48,23 +75,18 @@
     "source": "野生",
     "tiers": [
       {
-        "moq": 1,
-        "cost": 200.0,
-        "price": 320
-      }
-    ],
-    "unit": "隻"
-  },
-  {
-    "name": "彩虹惡魔蟹",
-    "size": "M",
-    "category": "惡魔蟹",
-    "source": "野生",
-    "tiers": [
+        "moq": 3,
+        "cost": 0,
+        "price": 666.67,
+        "total_price": 2000,
+        "note": "一公兩母"
+      },
       {
-        "moq": 1,
-        "cost": 200.0,
-        "price": 320
+        "moq": 5,
+        "cost": 0,
+        "price": 600.0,
+        "total_price": 3000,
+        "note": "兩公三母"
       }
     ],
     "unit": "隻"
@@ -76,37 +98,156 @@
     "source": "野生",
     "tiers": [
       {
-        "moq": 1,
-        "cost": 200.0,
-        "price": 320
+        "moq": 3,
+        "cost": 0,
+        "price": 666.67,
+        "total_price": 2000,
+        "note": "一公兩母"
+      },
+      {
+        "moq": 5,
+        "cost": 0,
+        "price": 600.0,
+        "total_price": 3000,
+        "note": "兩公三母"
       }
     ],
     "unit": "隻"
   },
   {
-    "name": "墨影惡魔蟹",
+    "name": "金眼彩紅惡魔蟹",
     "size": "M",
     "category": "惡魔蟹",
     "source": "野生",
     "tiers": [
       {
-        "moq": 1,
-        "cost": 200.0,
-        "price": 320
+        "moq": 3,
+        "cost": 0,
+        "price": 666.67,
+        "total_price": 2000,
+        "note": "一公兩母"
+      },
+      {
+        "moq": 5,
+        "cost": 0,
+        "price": 600.0,
+        "total_price": 3000,
+        "note": "兩公三母"
       }
     ],
     "unit": "隻"
   },
   {
-    "name": "橙手惡魔蟹",
+    "name": "糖果惡魔蟹",
     "size": "M",
     "category": "惡魔蟹",
     "source": "野生",
     "tiers": [
       {
-        "moq": 1,
-        "cost": 200.0,
-        "price": 320
+        "moq": 3,
+        "cost": 0,
+        "price": 666.67,
+        "total_price": 2000,
+        "note": "一公兩母"
+      },
+      {
+        "moq": 5,
+        "cost": 0,
+        "price": 600.0,
+        "total_price": 3000,
+        "note": "兩公三母"
+      }
+    ],
+    "unit": "隻"
+  },
+  {
+    "name": "金睛玉面惡魔蟹",
+    "size": "M",
+    "category": "惡魔蟹",
+    "source": "野生",
+    "tiers": [
+      {
+        "moq": 3,
+        "cost": 0,
+        "price": 666.67,
+        "total_price": 2000,
+        "note": "一公兩母"
+      },
+      {
+        "moq": 5,
+        "cost": 0,
+        "price": 600.0,
+        "total_price": 3000,
+        "note": "兩公三母"
+      }
+    ],
+    "unit": "隻"
+  },
+  {
+    "name": "金眼黃背惡魔蟹",
+    "size": "M",
+    "category": "惡魔蟹",
+    "source": "野生",
+    "tiers": [
+      {
+        "moq": 3,
+        "cost": 0,
+        "price": 666.67,
+        "total_price": 2000,
+        "note": "一公兩母"
+      },
+      {
+        "moq": 5,
+        "cost": 0,
+        "price": 600.0,
+        "total_price": 3000,
+        "note": "兩公三母"
+      }
+    ],
+    "unit": "隻"
+  },
+  {
+    "name": "白臂糖果惡魔蟹",
+    "size": "M",
+    "category": "惡魔蟹",
+    "source": "野生",
+    "tiers": [
+      {
+        "moq": 3,
+        "cost": 0,
+        "price": 666.67,
+        "total_price": 2000,
+        "note": "一公兩母"
+      },
+      {
+        "moq": 5,
+        "cost": 0,
+        "price": 600.0,
+        "total_price": 3000,
+        "note": "兩公三母"
+      }
+    ],
+    "unit": "隻"
+  },
+  {
+    "name": "小熊維尼蟹",
+    "size": "M",
+    "category": "麗泉蟹",
+    "source": "野生",
+    "tiers": [
+      {
+        "moq": 2,
+        "cost": 0,
+        "price": 750.0,
+        "total_price": 1500,
+        "note": "一公一母"
+      },
+      {
+        "moq": 4,
+        "cost": 0,
+        "price": 700.0,
+        "total_price": 2800,
+        "note": "兩公兩母"
       }
     ],
     "unit": "隻"
@@ -563,6 +704,457 @@
         "moq": 20,
         "cost": 35.0,
         "price": 70
+      }
+    ],
+    "unit": "隻"
+  },
+  {
+    "name": "黑箭毒藥",
+    "size": "2~3",
+    "category": "脂鯉",
+    "source": "人工",
+    "tiers": [
+      {
+        "moq": 5,
+        "cost": 180.0,
+        "price": 320
+      },
+      {
+        "moq": 15,
+        "cost": 150.0,
+        "price": 270
+      },
+      {
+        "moq": 25,
+        "cost": 120.0,
+        "price": 210
+      }
+    ],
+    "unit": "隻"
+  },
+  {
+    "name": "紅月可卡燈",
+    "size": "2~3",
+    "category": "脂鯉",
+    "source": "人工",
+    "tiers": [
+      {
+        "moq": 5,
+        "cost": 90.0,
+        "price": 160
+      },
+      {
+        "moq": 40,
+        "cost": 70.0,
+        "price": 130
+      },
+      {
+        "moq": 50,
+        "cost": 65.0,
+        "price": 120
+      }
+    ],
+    "unit": "隻"
+  },
+  {
+    "name": "彩虹魔鬼燈",
+    "size": "1.5",
+    "category": "脂鯉",
+    "source": "人工",
+    "tiers": [
+      {
+        "moq": 1,
+        "cost": 1200.0,
+        "price": 2100
+      },
+      {
+        "moq": 3,
+        "cost": 700.0,
+        "price": 1230
+      },
+      {
+        "moq": 5,
+        "cost": 650.0,
+        "price": 1140
+      }
+    ],
+    "unit": "隻"
+  },
+  {
+    "name": "超級紅魔鬼",
+    "size": "3~3.5",
+    "category": "脂鯉",
+    "source": "人工",
+    "tiers": [
+      {
+        "moq": 3,
+        "cost": 280.0,
+        "price": 490
+      },
+      {
+        "moq": 5,
+        "cost": 220.0,
+        "price": 390
+      },
+      {
+        "moq": 7,
+        "cost": 200.0,
+        "price": 350
+      }
+    ],
+    "unit": "隻"
+  },
+  {
+    "name": "金斑馬爬岩鰍",
+    "size": "4~5",
+    "category": "鰍類",
+    "source": "野生",
+    "tiers": [
+      {
+        "moq": 1,
+        "cost": 540.0,
+        "price": 950
+      },
+      {
+        "moq": 3,
+        "cost": 450.0,
+        "price": 790
+      },
+      {
+        "moq": 5,
+        "cost": 400.0,
+        "price": 700
+      }
+    ],
+    "unit": "隻"
+  },
+  {
+    "name": "黃金迷宮纓口鰍",
+    "size": "3~5",
+    "category": "鰍類",
+    "source": "野生",
+    "tiers": [
+      {
+        "moq": 1,
+        "cost": 600.0,
+        "price": 1050
+      },
+      {
+        "moq": 3,
+        "cost": 500.0,
+        "price": 880
+      },
+      {
+        "moq": 5,
+        "cost": 450.0,
+        "price": 790
+      }
+    ],
+    "unit": "隻"
+  },
+  {
+    "name": "烏岩嶺吻蝦虎",
+    "size": "3.5~4",
+    "category": "蝦虎/塘鱧",
+    "source": "野生",
+    "tiers": [
+      {
+        "moq": 3,
+        "cost": 240.0,
+        "price": 420
+      },
+      {
+        "moq": 5,
+        "cost": 200.0,
+        "price": 350
+      },
+      {
+        "moq": 7,
+        "cost": 180.0,
+        "price": 320
+      }
+    ],
+    "unit": "隻"
+  },
+  {
+    "name": "白線小鷹鴨嘴",
+    "size": "4~7",
+    "category": "鯰魚",
+    "source": "野生",
+    "tiers": [
+      {
+        "moq": 1,
+        "cost": 380.0,
+        "price": 670
+      },
+      {
+        "moq": 3,
+        "cost": 300.0,
+        "price": 530
+      },
+      {
+        "moq": 5,
+        "cost": 250.0,
+        "price": 440
+      }
+    ],
+    "unit": "隻"
+  },
+  {
+    "name": "諸神島枝牙蝦虎－公",
+    "size": "4.5~5.5",
+    "category": "蝦虎/塘鱧",
+    "source": "野生",
+    "tiers": [
+      {
+        "moq": 1,
+        "cost": 2400.0,
+        "price": 4200
+      },
+      {
+        "moq": 3,
+        "cost": 1800.0,
+        "price": 3150
+      },
+      {
+        "moq": 5,
+        "cost": 1500.0,
+        "price": 2630
+      }
+    ],
+    "unit": "隻"
+  },
+  {
+    "name": "鑽石彩虹鯽",
+    "size": "4~5",
+    "category": "鯉科魚",
+    "source": "野生",
+    "tiers": [
+      {
+        "moq": 20,
+        "cost": 36.0,
+        "price": 70
+      },
+      {
+        "moq": 30,
+        "cost": 30.0,
+        "price": 60
+      },
+      {
+        "moq": 40,
+        "cost": 28.0,
+        "price": 50
+      }
+    ],
+    "unit": "隻"
+  },
+  {
+    "name": "黃金英哥鼠",
+    "size": "2.5",
+    "category": "鼠魚",
+    "source": "人工",
+    "tiers": [
+      {
+        "moq": 1,
+        "cost": 250.0,
+        "price": 440
+      },
+      {
+        "moq": 3,
+        "cost": 220.0,
+        "price": 390
+      },
+      {
+        "moq": 5,
+        "cost": 190.0,
+        "price": 340
+      }
+    ],
+    "unit": "隻"
+  },
+  {
+    "name": "皇冠小鲃",
+    "size": "5",
+    "category": "鯉科魚",
+    "source": "野生",
+    "tiers": [
+      {
+        "moq": 1,
+        "cost": 120.0,
+        "price": 210
+      },
+      {
+        "moq": 3,
+        "cost": 100.0,
+        "price": 180
+      },
+      {
+        "moq": 5,
+        "cost": 80.0,
+        "price": 140
+      }
+    ],
+    "unit": "隻"
+  },
+  {
+    "name": "蘇拉威西韌蝦虎－公",
+    "size": "3",
+    "category": "蝦虎/塘鱧",
+    "source": "野生",
+    "tiers": [
+      {
+        "moq": 1,
+        "cost": 350.0,
+        "price": 620
+      },
+      {
+        "moq": 3,
+        "cost": 300.0,
+        "price": 530
+      },
+      {
+        "moq": 5,
+        "cost": 260.0,
+        "price": 460
+      }
+    ],
+    "unit": "隻"
+  },
+  {
+    "name": "無紋秉氏吸鰍",
+    "size": "5~6",
+    "category": "鰍類",
+    "source": "野生",
+    "tiers": [
+      {
+        "moq": 1,
+        "cost": 350.0,
+        "price": 620
+      },
+      {
+        "moq": 3,
+        "cost": 300.0,
+        "price": 530
+      },
+      {
+        "moq": 5,
+        "cost": 250.0,
+        "price": 440
+      }
+    ],
+    "unit": "隻"
+  },
+  {
+    "name": "金環鼠",
+    "size": "6~8",
+    "category": "鰍類",
+    "source": "野生",
+    "tiers": [
+      {
+        "moq": 1,
+        "cost": 350.0,
+        "price": 620
+      },
+      {
+        "moq": 3,
+        "cost": 300.0,
+        "price": 530
+      },
+      {
+        "moq": 5,
+        "cost": 260.0,
+        "price": 460
+      }
+    ],
+    "unit": "隻"
+  },
+  {
+    "name": "短身金沙鰍",
+    "size": "7~8",
+    "category": "鰍類",
+    "source": "野生",
+    "tiers": [
+      {
+        "moq": 1,
+        "cost": 1000.0,
+        "price": 1750
+      },
+      {
+        "moq": 3,
+        "cost": 750.0,
+        "price": 1320
+      }
+    ],
+    "unit": "隻"
+  },
+  {
+    "name": "尖頭雲南鰍（尖頭泳鰍）",
+    "size": "4",
+    "category": "鰍類",
+    "source": "野生",
+    "tiers": [
+      {
+        "moq": 1,
+        "cost": 180.0,
+        "price": 320
+      },
+      {
+        "moq": 3,
+        "cost": 160.0,
+        "price": 280
+      },
+      {
+        "moq": 5,
+        "cost": 140.0,
+        "price": 250
+      }
+    ],
+    "unit": "隻"
+  },
+  {
+    "name": "點帶米蝦",
+    "size": "2~5",
+    "category": "野生蝦",
+    "source": "野生",
+    "tiers": [
+      {
+        "moq": 1,
+        "cost": 130.0,
+        "price": 230
+      },
+      {
+        "moq": 3,
+        "cost": 100.0,
+        "price": 180
+      },
+      {
+        "moq": 5,
+        "cost": 85.0,
+        "price": 150
+      }
+    ],
+    "unit": "隻"
+  },
+  {
+    "name": "石紋匙指蝦（石紋網球蝦）",
+    "size": "4~6",
+    "category": "野生蝦",
+    "source": "野生",
+    "tiers": [
+      {
+        "moq": 3,
+        "cost": 60.0,
+        "price": 110
+      },
+      {
+        "moq": 5,
+        "cost": 52.0,
+        "price": 100
+      },
+      {
+        "moq": 8,
+        "cost": 45.0,
+        "price": 80
       }
     ],
     "unit": "隻"

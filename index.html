@@ -433,6 +433,16 @@
             border-radius: 6px;
             padding: 6px;
         }
+        .quantity-fixed {
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+            margin: 10px 0;
+            background: #f7fafc;
+            border-left: 3px solid var(--accent);
+            padding-left: 12px;
+            border-radius: 4px;
+        }
         .cart-item-price {
             font-size: 1.3rem;
             font-weight: bold;
@@ -623,6 +633,7 @@
                                 "note": "兩公三母"
                         }
                 ],
+                "fixed_quantity": true,
                 "image": "images/火眼金背惡魔蟹.jpg",
                 "inStock": true
         },
@@ -649,6 +660,7 @@
                                 "note": "兩公三母"
                         }
                 ],
+                "fixed_quantity": true,
                 "image": "images/火焰惡魔蟹.jpg",
                 "inStock": true
         },
@@ -675,6 +687,7 @@
                                 "note": "兩公三母"
                         }
                 ],
+                "fixed_quantity": true,
                 "image": "images/迪斯可惡魔蟹.jpg",
                 "inStock": true
         },
@@ -701,6 +714,7 @@
                                 "note": "兩公三母"
                         }
                 ],
+                "fixed_quantity": true,
                 "image": "images/香蕉惡魔蟹.jpg",
                 "inStock": true
         },
@@ -727,6 +741,7 @@
                                 "note": "兩公三母"
                         }
                 ],
+                "fixed_quantity": true,
                 "image": "images/萬聖節惡魔蟹.jpg",
                 "inStock": true
         },
@@ -753,6 +768,7 @@
                                 "note": "兩公三母"
                         }
                 ],
+                "fixed_quantity": true,
                 "image": "images/金眼彩紅惡魔蟹.jpg",
                 "inStock": true
         },
@@ -779,6 +795,7 @@
                                 "note": "兩公三母"
                         }
                 ],
+                "fixed_quantity": true,
                 "image": "images/糖果惡魔蟹.jpg",
                 "inStock": true
         },
@@ -805,6 +822,7 @@
                                 "note": "兩公三母"
                         }
                 ],
+                "fixed_quantity": true,
                 "image": "images/金睛玉面惡魔蟹.jpg",
                 "inStock": true
         },
@@ -831,6 +849,7 @@
                                 "note": "兩公三母"
                         }
                 ],
+                "fixed_quantity": true,
                 "image": "images/金眼黃背惡魔蟹.jpg",
                 "inStock": true
         },
@@ -857,6 +876,7 @@
                                 "note": "兩公三母"
                         }
                 ],
+                "fixed_quantity": true,
                 "image": "images/白臂糖果惡魔蟹.jpg",
                 "inStock": true
         },
@@ -883,6 +903,7 @@
                                 "note": "兩公兩母"
                         }
                 ],
+                "fixed_quantity": true,
                 "image": "images/小熊維尼蟹.jpg",
                 "inStock": true
         },
@@ -2089,7 +2110,8 @@
                 product: p,
                 tier: t,
                 tierLabel: String.fromCharCode(65 + tidx),
-                quantity: t.moq  // 初始數量為最低購買量
+                quantity: t.moq,  // 初始數量為最低購買量
+                fixedQuantity: p.fixed_quantity || false  // 記錄是否為固定數量商品
             };
 
             document.getElementById('cartCount').textContent = Object.keys(cart).length;
@@ -2155,6 +2177,22 @@
                 </div>` +
                 items.map(([key, i]) => {
                     const totalPrice = i.tier.price * i.quantity;
+                    const isFixed = i.fixedQuantity;
+
+                    // 固定數量商品：顯示數量但不可調整
+                    const quantityDisplay = isFixed
+                        ? `<div class="quantity-fixed">
+                             <span style="font-size: 1.1rem; font-weight: 600;">${i.quantity} ${i.product.unit}</span>
+                             <span style="color: #666; font-size: 0.85rem; margin-left: 8px;">(固定組合)</span>
+                           </div>`
+                        : `<div class="quantity-control">
+                             <button class="quantity-btn" onclick="changeQuantity('${key}', -1)" ${i.quantity <= i.tier.moq ? 'disabled' : ''}>−</button>
+                             <input type="number" class="quantity-input" value="${i.quantity}" min="${i.tier.moq}"
+                                    onchange="updateQuantity('${key}', parseInt(this.value) || ${i.tier.moq})">
+                             <button class="quantity-btn" onclick="changeQuantity('${key}', 1)">+</button>
+                             <span style="color: #666; font-size: 0.85rem;">(最低 ${i.tier.moq} ${i.product.unit})</span>
+                           </div>`;
+
                     return `
                     <div class="cart-item">
                         <div class="cart-item-header">
@@ -2164,13 +2202,7 @@
                         <div class="cart-item-details">
                             📏 尺寸: ${i.product.size} | 💰 單價: NT$ ${i.tier.price.toLocaleString()}/${i.product.unit}
                         </div>
-                        <div class="quantity-control">
-                            <button class="quantity-btn" onclick="changeQuantity('${key}', -1)" ${i.quantity <= i.tier.moq ? 'disabled' : ''}>−</button>
-                            <input type="number" class="quantity-input" value="${i.quantity}" min="${i.tier.moq}"
-                                   onchange="updateQuantity('${key}', parseInt(this.value) || ${i.tier.moq})">
-                            <button class="quantity-btn" onclick="changeQuantity('${key}', 1)">+</button>
-                            <span style="color: #666; font-size: 0.85rem;">(最低 ${i.tier.moq} ${i.product.unit})</span>
-                        </div>
+                        ${quantityDisplay}
                         <div class="cart-item-price">小計: NT$ ${totalPrice.toLocaleString()}</div>
                     </div>
                 `}).join('') + `

@@ -92,29 +92,6 @@
     "unit": "隻"
   },
   {
-    "name": "金睛玉面惡魔蟹",
-    "size": "M",
-    "category": "蟹",
-    "source": "野生",
-    "tiers": [
-      {
-        "moq": 2,
-        "cost": 0,
-        "price": 600.0,
-        "total_price": 1200,
-        "note": "一公一母"
-      },
-      {
-        "moq": 3,
-        "cost": 0,
-        "price": 666.67,
-        "total_price": 2000,
-        "note": "一公二母"
-      }
-    ],
-    "unit": "隻"
-  },
-  {
     "name": "迪斯可惡魔蟹",
     "size": "M",
     "category": "蟹",

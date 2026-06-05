@@ -8,15 +8,15 @@
       {
         "moq": 2,
         "cost": 0,
-        "price": 750.0,
-        "total_price": 1500,
+        "price": 600.0,
+        "total_price": 1200,
         "note": "一公一母"
       },
       {
         "moq": 4,
         "cost": 0,
-        "price": 700.0,
-        "total_price": 2800,
+        "price": 500.0,
+        "total_price": 2000,
         "note": "兩公兩母"
       }
     ],
